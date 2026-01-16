@@ -11,7 +11,7 @@ import asyncio
 
 # ---------------- Настройки ----------------
 TOKEN = os.getenv("8413148431:AAHhjWJuxY29QuaA_pUE7b0ue2tWgnQtboA")  # Telegram Bot Token
-WEBHOOK_URL = os.getenv("WEBHOOK_URL")  # https://project.up.railway.app
+WEBHOOK_URL = os.getenv("barbot-production-1f53.up.railway.app")  # https://project.up.railway.app
 bot = Bot(TOKEN)
 dp = Dispatcher(bot)
 app = FastAPI()
